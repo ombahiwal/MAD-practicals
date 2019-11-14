@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    tools:context=".Exp3">
+
+    <TextView
+        android:id="@+id/exp3_txt_sample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sample Text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/exp3_btn_bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bold"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:id="@+id/exp3_btn_italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Italic"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:id="@+id/exp3_btn_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Font Size"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:id="@+id/exp3_btn_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Font Color"
+        android:layout_marginTop="15dp"
+        />
+
+
+</LinearLayout>

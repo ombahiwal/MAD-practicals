@@ -33,5 +33,20 @@ public class MainActivity extends AppCompatActivity {
             Intent i = new Intent(this, Exp4.class);
             startActivity(i);
         });
+        // Experiment 5 Btn
+        findViewById(R.id.btn_exp5).setOnClickListener( v -> {
+            Intent i = new Intent(this, Exp5.class);
+            startActivity(i);
+        });
+        // Experiment 6 Btn
+        findViewById(R.id.btn_exp6).setOnClickListener( v -> {
+            Intent i = new Intent(this, Exp6.class);
+            startActivity(i);
+        });
+        // Experiment 7 Btn
+        findViewById(R.id.btn_exp6).setOnClickListener( v -> {
+            Intent i = new Intent(this, Exp6.class);
+            startActivity(i);
+        });
     }
 }
